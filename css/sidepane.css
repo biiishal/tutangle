@@ -1,0 +1,36 @@
+
+.left-pane, a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.sidepane-title{
+    font-size: 16px;
+    color: white;
+    padding: 15px 10px;
+    display:block;
+    background: #2fc1da;
+}
+
+.sidepane-icon{
+    float: right;
+}
+
+.sidepane li a{
+    display: inline;
+    line-height: 16px;
+}
+.sidepane li{
+    padding: 9px 12px;
+}
+
+.sidepane li:hover{
+    background: #ffffff;
+}
+
+.sidepane li img{
+    padding-top: 4px;
+    float: right;
+}

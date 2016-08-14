@@ -1,0 +1,255 @@
+.logo{
+    padding-top: 20px;
+    float: left;
+}
+
+img{
+    display: block;
+}
+.search-bar{
+    width: 385px;
+    padding-left: 25px;
+    background-color:#7dd9e8;
+    padding-top: 40px;
+    float: left;
+}
+
+.search-field{ 
+    background-image: url(/images/search-input.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 284px;
+    border: none;
+    float: left;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    font-size: 10px;
+}
+
+input .search-field{
+    padding-left: 8px;
+    font-size: 10px;
+    background: none;
+    border: none;
+    width: 100%;
+    height: 30px;
+}
+
+.search-button{
+    float: left; 
+    padding-top: 2px;
+}
+
+.user-info-block{
+    float: right;
+    width: 152px;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+
+.user-name{
+    font-size: 16px;
+    float: right;
+}
+
+.user-settings{
+    float: right;
+}
+
+.user-settings a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 10px;
+}
+
+.user-settings li{
+    background: url(/images/setting-seperator.png) 0% 50%;  
+    background-repeat: no-repeat;
+    padding-left: 8px;
+    padding-right: 4px;
+    float: left;   
+}
+
+.user-settings li:first-child{
+    background: none;
+}
+
+.container{
+    background: url(/images/tab-background.png) 0% 7%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.container-title{
+    font-size: 28px;
+}
+
+.tabs-list1 {
+    float: left;
+    padding-top: 36px;
+    margin-bottom: -8px;
+}
+.tabs-list2 {
+    float: right;
+    padding-top: 36px;
+    margin-bottom: -8px;
+}
+
+.tabs-list li{  
+    background: url(../images/tab-inactive.png) 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    width: 102px;
+    margin: 6.5px;
+    padding: 7px;
+    float: left;
+}
+
+.tabs-list .active{
+    background: url(../images/tab-active.png) 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+.tabs-list .active a{
+    color:white;
+}
+
+.tabs-list li:hover{
+    background: url(../images/tab-active.png) 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+
+.tabs-list a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+.tabs-list li:hover a{
+    color: white;
+}
+
+.tabs-list li.active a{
+    color: white;
+}
+
+.content-item{
+    border-top: 1px solid #d8d8d8;
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-item {
+    border-top: 2px solid #2fc1da;
+}
+
+.last-item{
+    border-bottom:1px solid #d8d8d8;
+    padding-bottom: 90px;
+}
+
+.user-thumb{
+    padding: 8px;
+    float: left;
+}
+
+.post-title a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    line-height: 50%;
+}
+
+.content-desc{
+    float: left;
+}
+
+.new-entry a{
+    color: #2fc1da;
+    font-size:10px;
+}
+
+.new-comment a{
+    color: #2fc1da;
+    font-size:10px;
+}
+
+.topic-box-invite a{
+    color: #d83f1d;
+    font-size:10px;
+}
+
+.basic-info{
+   
+}
+
+.basic-info li{
+    background: url(/images/setting-seperator.png) 0%;
+    background-repeat: no-repeat;
+    padding: 4px;
+    font-size: 10px;
+    width: auto;
+    float: left;
+}
+
+
+.basic-info .user-name{
+    color: #2fc1da;
+    line-height: 50%;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.basic-info .subscribed{
+    color: #709722;
+    font-size: 10px;
+    padding-left: 2px;
+}
+.basic-info li:first-child{
+    background: none;
+}
+
+.topic-box-origin{
+    clear: both;
+    float: left;
+    font-size: 12px;
+}
+
+.topic-box-origin .topic-box-name{
+    color: #2fc1da;
+}
+
+.footer a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 10px;
+}
+
+.footer-link-block li{
+    background: url(/images/footer-menu-seperator.png) 0% 50%;
+    background-repeat: no-repeat;
+    float:left;
+    padding: 10px;
+}
+
+.footer-link-block li:first-child{
+    background: none;
+}
+
+.copyright{
+    float: right;
+    color: darkgrey;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 15px;
+}

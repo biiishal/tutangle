@@ -1,0 +1,74 @@
+.header-lower ul{
+    padding: 0;
+    margin: 0;
+}
+
+.header-lower a{
+    text-decoration: none;
+    color: black;
+}
+
+.user-nav-block li{
+    padding: 8px;
+    float: left;
+}
+
+.user-nav-block a{
+    font-size: 14px;
+}
+
+.user-nav-block li:hover{
+    background: white;
+}
+
+
+.user-notifications-block{
+    float: right;
+    padding: 15px;
+    padding-right: 0px;
+}
+
+
+
+.box-invite{
+    background-image: url(/images/icon1-inactive.png);
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    padding-right: 15px;
+    font-size: 12px;
+    float: left;
+    color: lightgrey;
+}
+
+.box-invite.active{
+    background-image: url(/images/icon1-active.png);
+    color: black;
+}
+
+.box-invite a{
+    display: block;
+}
+
+.friend-request{
+    background-image: url(/images/icon2-inactive.png);
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    font-size: 12px;
+    float: left;
+    color: lightgrey;
+}
+
+.friend-request.active{
+    background-image: url(/images/icon2-active.png);
+    color: black;
+}
+
+.friend-request a{
+    display: block;
+}
+
+.header-lower ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
